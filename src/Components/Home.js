@@ -1,9 +1,11 @@
 import React from 'react'
+import NavbarMain from './NavbarMain'
 
 export default function Home() {
   return (
     <>
-    <p>Home</p>
+    <NavbarMain/>
+    <p>Home </p>
     </>
   )
 }

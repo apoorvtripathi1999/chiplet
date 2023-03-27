@@ -1,0 +1,29 @@
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-right: 150px;
+    margin-top: 20px;
+}
+.navbar-main
+{
+    background-color: black;
+    color: aliceblue;
+}
+.nav-links
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.nav-list-item
+{
+    margin-left: 50px;
+}
+.nav-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
