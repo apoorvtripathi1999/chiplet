@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'pixel';
+    src: url('../fonts/VT323-Regular.ttf') format('truetype');
+  }
 .logo{
     height: 50px;
     width: 50px;
@@ -26,4 +30,49 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.web-title
+{
+    font-weight:900;
+    font-size: 75px;
+    font-family: "pixel", sans-serif;
+    font-style: normal;
+    
+}
+.intro-main
+{
+    font-family: "pixel", sans-serif;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 200px;
+}
+.arduino-img
+{
+    width: 400px;
+    height: 300px;
+}
+.left-text
+{
+    border: 1px solid black;
+    border-spacing: 2px;
+    width: 220px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.scroll-nav
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+
+}
+.intro
+{
+    background-color: rgb(102, 180, 177);
 }

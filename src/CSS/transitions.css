@@ -1,0 +1,44 @@
+.fadein
+{
+    animation: fadein ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadein {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.rotation
+{
+    animation: rotation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes rotation {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 10deg;
+     }
+}
+.fadeinlong
+{
+    animation: fadeinlong ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    transition-delay: 3s;
+}
+@keyframes fadeinlong {
+    0% {
+        transition-delay: 3s;
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
