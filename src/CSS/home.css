@@ -76,3 +76,58 @@
 {
     background-color: rgb(102, 180, 177);
 }
+.description-main
+{
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+}
+.progress-section
+{
+    height: 7px;
+    width: 7px;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.progress-section[id="active"]
+{
+    background-color: azure;
+    transform: scale(2);
+}
+.progress-bar
+{
+    position: absolute;
+    top: 50%;
+    height: 4px;
+    background-color: black;
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 2s ease;
+}
+.progress-container::before
+{ 
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+.progress-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 80%;
+    max-width: 100%;
+    width: 800px;
+    z-index: 1;
+}
