@@ -218,3 +218,8 @@
    transition: ease 1s;
    border-radius: 50px;
 }
+.desc-btn:active
+{
+  border: 10px solid white;
+  transition: ease 1ms;
+}
