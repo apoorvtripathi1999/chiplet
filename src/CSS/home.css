@@ -78,12 +78,14 @@
 }
 .description-main
 {
-    height: 800px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: white;
     position: relative;
+    font-family: "pixel", sans-serif;
+    font-style: normal;
 }
 .progress-section
 {
@@ -121,6 +123,7 @@
 }
 .progress-container
 {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -130,4 +133,88 @@
     max-width: 100%;
     width: 800px;
     z-index: 1;
+}
+.progress-item
+{
+    animation: fadeoutlong ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeoutlong {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+     }
+}
+.progress-item[id = "active"]
+{
+    animation: fadeinlong ease 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeinlong {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+.progress-items-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items:center;
+    padding-top: 150px;
+    width: 80%;
+}
+.description-img
+{
+    width: 200px;
+    height: auto;
+    transform: rotate(10deg);
+}
+.progress
+{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.progress-item
+{
+    width: 250px;
+    height: auto;
+}
+.desc-text
+{
+    padding-top: 50px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-btn
+{
+   margin-top: 50px;
+   width: auto;
+   height: 40px;
+   background-color: black;
+   color: white;
+   border: 2px solid white;
+   outline: 2px solid black;
+   transition: ease 1s;
+   font-family: "pixel", sans-serif;
+   font-style: normal;
+}
+.desc-btn:hover
+{
+   background-color: white;
+   color: black;
+   border: 1px solid black;
+   border-radius: 0%;
+   transition: ease 1s;
+   border-radius: 50px;
 }

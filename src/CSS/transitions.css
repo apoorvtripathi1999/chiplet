@@ -28,14 +28,12 @@
 }
 .fadeinlong
 {
-    animation: fadeinlong ease 2s;
+    animation: fadeinlong ease 4s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
-    transition-delay: 3s;
 }
 @keyframes fadeinlong {
     0% {
-        transition-delay: 3s;
         opacity: 0;
     }
     100% {
