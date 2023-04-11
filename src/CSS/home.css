@@ -82,10 +82,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: white;
     position: relative;
     font-family: "pixel", sans-serif;
     font-style: normal;
+    background: rgb(169, 175, 213);
+    background-image: url(../Images/home/background.png);
+    background-blend-mode:hue;
+    background-size:contain;
 }
 .progress-section
 {
@@ -222,4 +225,34 @@
 {
   border: 10px solid white;
   transition: ease 1ms;
+}
+.video-desc-main
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-around;
+  padding-top: 150px;
+  padding-bottom: 150px;
+  font-family: "pixel", sans-serif;
+  font-style: normal;
+  background-color:antiquewhite;
+}
+.video{
+   width: 50%;
+   height: auto;
+}
+.video-div
+{
+    border: 2px solid white;
+    outline: 2px solid black;
+}
+.side-desc
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
