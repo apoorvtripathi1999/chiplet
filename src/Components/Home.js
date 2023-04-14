@@ -4,6 +4,7 @@ import Description from './Description'
 import Intro from './Intro'
 import NavbarMain from './NavbarMain'
 import VideoDesc from './VideoDesc'
+import Slider from './Slider'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
     <Intro/>
     <Description/>
     <VideoDesc/>
+    <Slider/>
     </>
   )
 }

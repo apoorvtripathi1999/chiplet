@@ -256,3 +256,42 @@
     align-items: center;
     justify-content: center;
 }
+.slider-button
+{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    margin-right: 5px;
+    border: 1px solid black;
+}
+.slider-button:active
+{
+    background-color: grey;
+}
+.slider-control
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.slider-main
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center
+    
+}
+.slider-element
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+.slider-inner
+{
+    margin: 20px;
+}
+
