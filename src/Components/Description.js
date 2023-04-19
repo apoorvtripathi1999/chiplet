@@ -31,7 +31,6 @@ export default function Description() {
       setBtn("visible")
       return;
     }
-    console.log(index, percent)
 
   }
 

@@ -268,8 +268,8 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 45px;
+    margin-bottom: 45px;
 }
 .slider
 {
@@ -277,7 +277,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .slider-window
 {
@@ -290,6 +290,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: grey;
+    font-family: "pixel", sans-serif;
+    font-style: normal;
 }
 .slide
 {
@@ -306,7 +309,11 @@
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     margin: 25px;
+    outline: 10px solid silver;
+
 }
 .slider-buttons-act
 {
@@ -317,4 +324,130 @@
    background-color: black;
    transition: 1s ease;
    margin-left: 7px;
+}
+.slider-inner-text
+{
+    background-color: silver;
+    margin-top: 50px;
+}
+.text
+{
+    width: 100%;
+    background-color: silver;
+    text-transform:uppercase;
+    font-size: x-large;
+}
+.feedback-brands
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.feedback-feed
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: larger;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+.feedback-lower
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feedback-lower
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgb(191, 191, 191);
+    width: 100%;
+}
+.feedback-main
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #829C9B;
+    font-family: "pixel", sans-serif;
+    font-style: normal;
+}
+.brand-element
+{
+    width: 20%;
+    height: 100px;
+    border-bottom: 2px solid black;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size:larger;
+}
+.brand-element:hover
+{
+    border-bottom: 2px solid white;
+    color: silver;
+    transition: 0.5s ease;
+    -webkit-text-stroke: 0.5px silver;
+}
+.brand-element-act
+{
+    width: 20%;
+    height: 100px;
+    border-bottom: 2px solid white;
+    color: silver;
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size:larger;
+    -webkit-text-stroke: 0.5px silver;
+}
+.feedback-element-hidden
+{
+    display: none;
+}
+.feedback-upper
+{
+    margin-top: 50px;
+    -webkit-text-stroke: 0.5px black;
+}
+.feedback-heading
+{
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: x-large;
+    text-decoration: wavy;
+}
+.feedback-elenent
+{
+    font-size: larger;
+    font-weight: 10;
+}
+.payment-img
+{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.bottom-text
+{
+    font-size: larger;
 }
