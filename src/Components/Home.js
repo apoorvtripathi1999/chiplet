@@ -6,6 +6,7 @@ import NavbarMain from './NavbarMain'
 import VideoDesc from './VideoDesc'
 import Slider from './Slider'
 import Feedbacks from './Feedbacks'
+import Footer from './Footer'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
     <VideoDesc/>
     <Slider/>
     <Feedbacks/>
+    <Footer/>
     </>
   )
 }

@@ -1,0 +1,947 @@
+[
+    {
+        "name": "3.5MM (2 CONTACT / TS)",
+        "uid": "008",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "A standard audio jack with two contacts that supports mono audio signals.",
+        "price": "0.50",
+        "imageurl": "https://i.ibb.co/SJYKtcy/Pinouts-V0-3-page-0008.jpg"
+    },
+    {
+        "name": "3.5MM (3 CONTACT / TRS)",
+        "uid": "010",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "An audio jack with three contacts that supports stereo audio signals.",
+        "price": "0.75",
+        "imageurl": "https://i.ibb.co/wdN3hfw/Pinouts-V0-3-page-0010.jpg"
+    },
+    {
+        "name": "3.5MM (4 CONTACT / TRRS)",
+        "uid": "012",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "An audio jack with four contacts that supports both audio and video signals.",
+        "price": "1.00",
+        "imageurl": "https://i.ibb.co/0tGBJvK/Pinouts-V0-3-page-0012.jpg"
+    },
+    {
+        "name": "DISPLAYPORT",
+        "uid": "014",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "A digital audio and video interface that delivers high-quality audio and video signals over a single cable.",
+        "price": "5.00",
+        "imageurl": "https://i.ibb.co/wRRTt5V/Pinouts-V0-3-page-0014.jpg"
+    },
+    {
+        "name": "DVI-D (DUAL LINK)",
+        "uid": "016",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "A digital video interface that supports high-definition video signals and offers high-speed digital transmission.",
+        "price": "10.00",
+        "imageurl": "https://i.ibb.co/txZC4mX/Pinouts-V0-3-page-0016.jpg"
+    },
+    {
+        "name": "HDMI TYPE A",
+        "uid": "018",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "A digital audio and video interface that supports high-definition video signals and delivers high-quality audio and video over a single cable.",
+        "price": "3.50",
+        "imageurl": "https://i.ibb.co/zxJV4Jx/Pinouts-V0-3-page-0018.jpg"
+    },
+    {
+        "name": "HDMI TYPE C (MINI)",
+        "uid": "020",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "A smaller version of the HDMI interface that is commonly used with portable devices like cameras and smartphones.",
+        "price": "2.50",
+        "imageurl": "https://i.ibb.co/Gcd0Ygh/Pinouts-V0-3-page-0020.jpg"
+    },
+    {
+        "name": "HDMI TYPE D (MICRO)",
+        "uid": "022",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "An even smaller version of the HDMI interface that is commonly used with small portable devices like smartphones and tablets.",
+        "price": "2.00",
+        "imageurl": "https://i.ibb.co/HVYWQN3/Pinouts-V0-3-page-0022.jpg"
+    },
+    {
+        "name": "MINI DISPLAYPORT",
+        "uid": "024",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "A smaller version of the DisplayPort interface that is commonly used with portable devices like laptops and tablets.",
+        "price": "4.50",
+        "imageurl": "https://i.ibb.co/gDs91Wy/Pinouts-V0-3-page-0024.jpg"
+    },
+    {
+        "name": "MINI DVI",
+        "uid": "026",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "A smaller version of the DVI interface that is commonly used with portable devices like laptops and tablets.",
+        "price": "8.00",
+        "imageurl": "https://i.ibb.co/nBnc8wx/Pinouts-V0-3-page-0026.jpg"
+    },
+    {
+        "name": "S-VIDEO",
+        "uid": "028",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "A video interface that uses separate signals for color and brightness, resulting in higher quality video output than composite video.",
+        "price": "1.50",
+        "imageurl": "https://i.ibb.co/Mnb0Lry/Pinouts-V0-3-page-0028.jpg"
+    },
+    {
+        "name": "VGA",
+        "uid": "030",
+        "catagory": "CONNECTORS",
+        "subcata": "Media",
+        "description": "A video interface that uses analog signals to transmit video, commonly used with older computer monitors.",
+        "price": "2.00",
+        "imageurl": "https://i.ibb.co/nPmYqkN/Pinouts-V0-3-pages-to-jpg-0030.jpg"
+    },
+    {
+        "name": "USB TYPE MICRO-B 3.0",
+        "uid": "032",
+        "catagory": "CONNECTORS",
+        "subcata": "USB",
+        "description": "A USB interface that supports fast data transfer speeds and is commonly used with portable devices like smartphones and tablets.",
+        "price": "5.50",
+        "imageurl": "https://i.ibb.co/SVdyt9w/Pinouts-V0-3-pages-to-jpg-0032.jpg"
+    },
+    {
+        "name": "USB TYPE MICRO-B",
+        "uid": "034",
+        "catagory": "CONNECTORS",
+        "subcata": "USB",
+        "description": "A USB interface that is commonly used with portable devices like smartphones and tablets.",
+        "price": "2.50",
+        "imageurl": "https://i.ibb.co/W093fKL/Pinouts-V0-3-pages-to-jpg-0034.jpg"
+    },
+    {
+        "name": "USB TYPE-A 2.0",
+        "uid": "036",
+        "catagory": "CONNECTORS",
+        "subcata": "USB",
+        "description": "A USB interface that is commonly used with computers and other devices and supports data transfer rates of up to 480 Mbps.",
+        "price": "1.50",
+        "imageurl": "https://i.ibb.co/kxf9BXk/Pinouts-V0-3-pages-to-jpg-0036.jpg"
+    },
+    {
+        "name": "USB TYPE-A 3.0",
+        "uid": "038",
+        "catagory": "CONNECTORS",
+        "subcata": "USB",
+        "description": "A USB interface that is commonly used with computers and other devices and supports data transfer rates of up to 5 Gbps.",
+        "price": "3.00",
+        "imageurl": "https://i.ibb.co/sKSPn7d/Pinouts-V0-3-pages-to-jpg-0038.jpg"
+    },
+    {
+        "name": "USB TYPE-B 2.0",
+        "uid": "040",
+        "catagory": "CONNECTORS",
+        "subcata": "USB",
+        "description": "A USB interface that is commonly used with printers and other devices and supports data transfer rates of up to 480 Mbps.",
+        "price": "2.00",
+        "imageurl": "https://i.ibb.co/P9MhTPZ/Pinouts-V0-3-pages-to-jpg-0040.jpg"
+    },
+    {
+        "name": "USB TYPE-B 3.0",
+        "uid": "042",
+        "catagory": "CONNECTORS",
+        "subcata": "USB",
+        "description": "A USB interface that is commonly used with printers and other devices and supports data transfer rates of up to 5 Gbps.",
+        "price": "3.50",
+        "imageurl": "https://i.ibb.co/5BLyDQS/Pinouts-V0-3-pages-to-jpg-0042.jpg"
+    },
+    {
+        "name": "USB TYPE-MINI-B 2.0",
+        "uid": "044",
+        "catagory": "CONNECTORS",
+        "subcata": "USB",
+        "description": "A USB interface that is commonly used with portable devices like cameras and smartphones.",
+        "price": "1.50",
+        "imageurl": "https://i.ibb.co/t8GXgX1/Pinouts-V0-3-pages-to-jpg-0044.jpg"
+    },
+    {
+        "name": "USB-C",
+        "uid": "046",
+        "catagory": "CONNECTORS",
+        "subcata": "USB",
+        "description": "A versatile USB interface that supports power delivery, high-speed data transfer, and video output, commonly used with modern laptops and smartphones.",
+        "price": "4.00",
+        "imageurl": "https://i.ibb.co/yStN8Jx/Pinouts-V0-3-pages-to-jpg-0046.jpg"
+    },
+    {
+        "name": "ESATA",
+        "uid": "048",
+        "catagory": "CONNECTORS",
+        "subcata": "MISCELLANEOUS",
+        "description": "An external SATA interface that supports high-speed data transfer rates and is commonly used for data backup and storage.",
+        "price": "6.00",
+        "imageurl": "https://i.ibb.co/g6kdQ7f/Pinouts-V0-3-pages-to-jpg-0048.jpg"
+    },
+    {
+        "name": "ETHERNET (RJ45).",
+        "uid": "050",
+        "catagory": "CONNECTORS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A physical connector used for wired networking, commonly found on computers, routers, and switches.",
+        "price": "1.50",
+        "imageurl": "https://i.ibb.co/GdHVPSD/Pinouts-V0-3-pages-to-jpg-0050.jpg"
+    },
+    {
+        "name": "FIREWIRE",
+        "uid": "052",
+        "catagory": "CONNECTORS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A high-speed interface that supports data transfer rates of up to 800 Mbps and is commonly used with video cameras and other multimedia devices.",
+        "price": "2.50",
+        "imageurl": "https://i.ibb.co/vcHwPg3/Pinouts-V0-3-pages-to-jpg-0052.jpg"
+    },
+    {
+        "name": "LIGHTNING CABLE",
+        "uid": "054",
+        "catagory": "CONNECTORS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A proprietary digital interface used by Apple devices that supports high-speed data transfer and charging.",
+        "price": "7.00",
+        "imageurl": "https://i.ibb.co/ZcchsjQ/Pinouts-V0-3-pages-to-jpg-0054.jpg"
+    },
+    {
+        "name": "PHONE LINE (RJ11)",
+        "uid": "056",
+        "catagory": "CONNECTORS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A standard interface used for connecting telephones to a wall jack.",
+        "price": "0.75",
+        "imageurl": "https://i.ibb.co/7VyRZGK/Pinouts-V0-3-pages-to-jpg-0056.jpg"
+    },
+    {
+        "name": "PS/2",
+        "uid": "058",
+        "catagory": "CONNECTORS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A legacy interface used for connecting keyboards and mice to a computer.",
+        "price": "1.00",
+        "imageurl": "https://i.ibb.co/5rF18Tb/Pinouts-V0-3-pages-to-jpg-0058.jpg"
+    },
+    {
+        "name": "RS-232 SERIAL (DB25)",
+        "uid": "060",
+        "catagory": "CONNECTORS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A standard interface used for serial communication between devices, with 25 pins.",
+        "price": "10.00",
+        "imageurl": "https://i.ibb.co/YDzBVNW/Pinouts-V0-3-pages-to-jpg-0060.jpg"
+    },
+    {
+        "name": "RS-232 SERIAL (DB9)",
+        "uid": "062",
+        "catagory": "CONNECTORS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A standard interface used for serial communication between devices, with 9 pins.",
+        "price": "8.00",
+        "imageurl": "https://i.ibb.co/fnKMcG1/Pinouts-V0-3-pages-to-jpg-0062.jpg"
+    },
+    {
+        "name": "MEMORY STICK PRO DUO",
+        "uid": "068",
+        "catagory": "MEMORY",
+        "subcata": "MEMORY CARDS",
+        "description": "A type of memory card commonly used in Sony digital cameras and other portable devices.",
+        "price": "7.50",
+        "imageurl": "https://i.ibb.co/FDcG5D1/Pinouts-V0-3-pages-to-jpg-0068.jpg"
+    },
+    {
+        "name": "MICRO SD CARD",
+        "uid": "070",
+        "catagory": "MEMORY",
+        "subcata": "MEMORY CARDS",
+        "description": "A type of small removable memory card commonly used in portable electronics such as smartphones, cameras, and tablets.",
+        "price": "5.00",
+        "imageurl": "https://i.ibb.co/pWWM14W/Pinouts-V0-3-pages-to-jpg-0070.jpg"
+    },
+    {
+        "name": "MULTIMEDIA CARD",
+        "uid": "072",
+        "catagory": "MEMORY",
+        "subcata": "MEMORY CARDS",
+        "description": "A type of removable memory card that was widely used in early portable electronics such as MP3 players and digital cameras.",
+        "price": "3.50",
+        "imageurl": "https://i.ibb.co/K0s3MM8/Pinouts-V0-3-pages-to-jpg-0072.jpg"
+    },
+    {
+        "name": "SD CARD",
+        "uid": "074",
+        "catagory": "MEMORY",
+        "subcata": "MEMORY CARDS",
+        "description": "A type of removable memory card commonly used in digital cameras, camcorders, and other portable electronics.",
+        "price": "4.00",
+        "imageurl": "https://i.ibb.co/frjDTVM/Pinouts-V0-3-pages-to-jpg-0074.jpg"
+    },
+    {
+        "name": "XD PICTURE CARD",
+        "uid": "076",
+        "catagory": "MEMORY",
+        "subcata": "MEMORY CARDS",
+        "description": "A type of removable memory card that was used primarily in digital cameras and has since been largely replaced by SD cards.",
+        "price": "6.50",
+        "imageurl": "https://i.ibb.co/3WjJyTQ/Pinouts-V0-3-pages-to-jpg-0076.jpg"
+    },
+    {
+        "name": "ADAFRUIT FEATHER 32U4 BLUEFRUIT LE",
+        "uid": "084",
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ATmega32U4 chip, designed for Bluetooth Low Energy (BLE) applications.",
+        "price": "30.00",
+        "imageurl": "https://i.ibb.co/ZhzXcTL/Pinouts-V0-3-pages-to-jpg-0084.jpg"
+    },
+    {
+        "name": "ADAFRUIT FEATHER 32U4 FONA",
+        "uid": "088",
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ATmega32U4 chip, designed for cellular communication applications.",
+        "price": "35.00",
+        "imageurl": "https://i.ibb.co/xgzDJmP/Pinouts-V0-3-pages-to-jpg-0088.jpg"
+    },
+    {
+        "name": "ADAFRUIT FEATHER 32U4 RFM69HCW",
+        "uid": "092",
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ATmega32U4 chip, designed for wireless communication applications using the RFM69HCW radio module.",
+        "price": "40.00",
+        "imageurl": "https://i.ibb.co/TYcZ1GQ/Pinouts-V0-3-pages-to-jpg-0092.jpg"
+    },
+    {
+        "name": "ADAFRUIT FEATHER HUZZAH WITH ESP8266",
+        "uid": "096",
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ESP8266 chip, designed for Wi-Fi connectivity applications.",
+        "price": "20.00",
+        "imageurl": "https://i.ibb.co/PmxR3gT/Pinouts-V0-3-pages-to-jpg-0096.jpg"
+    },
+    {
+        "name": "ADAFRUIT FEATHER M0 ADALOGGER",
+        "uid": 100,
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ATSAMD21G18 chip, designed for data logging applications.",
+        "price": "30.00",
+        "imageurl": "https://i.ibb.co/gy8N4ng/Pinouts-V0-3-pages-to-jpg-0100.jpg"
+    },
+    {
+        "name": "ADAFRUIT FEATHER M0 BASIC PROTO",
+        "uid": 104,
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ATSAMD21G18 chip, designed for prototyping and experimentation.",
+        "price": "25.00",
+        "imageurl": "https://i.ibb.co/KDbgxWw/Pinouts-V0-3-pages-to-jpg-0104.jpg"
+    },
+    {
+        "name": "ADAFRUIT FEATHER M0 BLUEFRUIT LE",
+        "uid": 108,
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ATSAMD21G18 chip, designed for Bluetooth Low Energy (BLE) applications.",
+        "price": "35.00",
+        "imageurl": "https://i.ibb.co/RP6Hr0W/Pinouts-V0-3-pages-to-jpg-0108.jpg"
+    },
+    {
+        "name": "ADAFRUIT FEATHER M0 RFM69HCW",
+        "uid": 112,
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ATSAMD21G18 chip, designed for wireless communication applications using the RFM69HCW radio module.",
+        "price": "45.00",
+        "imageurl": "https://i.ibb.co/n6T6STC/Pinouts-V0-3-pages-to-jpg-0112.jpg"
+    },
+    {
+        "name": "ADAFRUIT METRO MINI 328 5V",
+        "uid": 116,
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ATmega328 chip, designed for general purpose applications.",
+        "price": "15.00",
+        "imageurl": "https://i.ibb.co/pjdJ8tJ/Pinouts-V0-3-pages-to-jpg-0116.jpg"
+    },
+    {
+        "name": "ADAFRUIT TRINKET 5V",
+        "uid": 118,
+        "catagory": "BOARDS",
+        "subcata": "ADAFRUIT",
+        "description": "A small, lightweight microcontroller board based on the ATtiny85 chip, designed for small and simple projects.",
+        "price": "10.00",
+        "imageurl": "https://i.ibb.co/5B4V1Df/Pinouts-V0-3-pages-to-jpg-0118.jpg"
+    },
+    {
+        "name": "ARDUINO DUE",
+        "uid": 120,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A microcontroller board based on the Atmel SAM3X8E chip, designed for high-performance applications.",
+        "price": "30.00",
+        "imageurl": "https://i.ibb.co/m5KkM9m/Pinouts-V0-3-pages-to-jpg-0120.jpg"
+    },
+    {
+        "name": "ARDUINO LEONARDO",
+        "uid": 126,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A microcontroller board based on the Atmel ATmega32U4 chip, designed for simple and creative projects.",
+        "price": "20.00",
+        "imageurl": "https://i.ibb.co/0210PTv/Pinouts-V0-3-pages-to-jpg-0126.jpg"
+    },
+    {
+        "name": "ARDUINO MEGA 2560 REV3",
+        "uid": 128,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A microcontroller board based on the Atmel ATmega2560 chip, designed for larger and more complex projects.",
+        "price": "35.00",
+        "imageurl": "https://i.ibb.co/QYFg9WG/Pinouts-V0-3-pages-to-jpg-0128.jpg"
+    },
+    {
+        "name": "ARDUINO MICRO",
+        "uid": 134,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A microcontroller board based on the Atmel ATmega32U4 chip, designed for small and simple projects.",
+        "price": "15.00",
+        "imageurl": "https://i.ibb.co/L1LNbhY/Pinouts-V0-3-pages-to-jpg-0134.jpg"
+    },
+    {
+        "name": "ARDUINO MKR 1000 WIFI",
+        "uid": 136,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A microcontroller board based on the Atmel SAMD21 chip, designed for Wi-Fi connectivity applications.",
+        "price": "25.00",
+        "imageurl": "https://i.ibb.co/p0fKdYL/Pinouts-V0-3-pages-to-jpg-0136.jpg"
+    },
+    {
+        "name": "ARDUINO MKR 1010 WIFI",
+        "uid": 138,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A microcontroller board based on the Atmel SAMD21 chip, designed for Wi-Fi connectivity applications.",
+        "price": "30.00",
+        "imageurl": "https://i.ibb.co/X5W95vP/Pinouts-V0-3-pages-to-jpg-0138.jpg"
+    },
+    {
+        "name": "ARDUINO MKR FOX 1200",
+        "uid": 140,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A powerful Arduino board with Sigfox connectivity, allowing for long-range wireless communication.",
+        "price": "40.00",
+        "imageurl": "https://i.ibb.co/rp1Mxpx/Pinouts-V0-3-pages-to-jpg-0140.jpg"
+    },
+    {
+        "name": "ARDUINO MKR GSM 1400",
+        "uid": 142,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "An Arduino board equipped with a cellular modem, enabling cellular connectivity for IoT projects.",
+        "price": "50.00",
+        "imageurl": "https://i.ibb.co/b2kzqyY/Pinouts-V0-3-pages-to-jpg-0142.jpg"
+    },
+    {
+        "name": "ARDUINO MKR NB 1500",
+        "uid": 144,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "An Arduino board with NarrowBand IoT (NB-IoT) and LTE Cat M1 connectivity, designed for low-power and low-bandwidth IoT applications.",
+        "price": "60.00",
+        "imageurl": "https://i.ibb.co/gtYCZKy/Pinouts-V0-3-pages-to-jpg-0144.jpg"
+    },
+    {
+        "name": "ARDUINO MKR WAN 1310",
+        "uid": 146,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "An Arduino board that combines LoRa connectivity with the SAMD21 Cortex-M0+ 32-bit low power ARM MCU, designed for IoT applications with long-range wireless communication.",
+        "price": "35.00",
+        "imageurl": "https://i.ibb.co/BjgLPMM/Pinouts-V0-3-pages-to-jpg-0146.jpg"
+    },
+    {
+        "name": "ARDUINO MKR ZERO",
+        "uid": 148,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A powerful and compact Arduino board based on the SAMD21 Cortex-M0+ 32-bit low power ARM MCU, with built-in USB host and device capability.",
+        "price": "20.00",
+        "imageurl": "https://i.ibb.co/SnDKy7z/Pinouts-V0-3-pages-to-jpg-0148.jpg"
+    },
+    {
+        "name": "ARDUINO NANO 33 BLE",
+        "uid": 150,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A compact board designed for Bluetooth Low Energy (BLE) connectivity, with a 32-bit ARM Cortex-M4F MCU and a wide range of sensors.",
+        "price": "25.99",
+        "imageurl": "https://i.ibb.co/Zc5mwZL/Pinouts-V0-3-pages-to-jpg-0150.jpg"
+    },
+    {
+        "name": "ARDUINO NANO 33 IOT",
+        "uid": 152,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A compact board designed for Wi-Fi and Bluetooth connectivity, with an ARM Cortex-M0+ 32-bit low power MCU and a wide range of sensors.",
+        "price": "29.99",
+        "imageurl": "https://i.ibb.co/37QnRyf/Pinouts-V0-3-pages-to-jpg-0152.jpg"
+    },
+    {
+        "name": "ARDUINO NANO EVERY",
+        "uid": 154,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "An Arduino board that is backward-compatible with classic Arduino boards, but with improved features such as more GPIO pins and a faster clock.",
+        "price": "19.99",
+        "imageurl": "https://i.ibb.co/djYD8NV/Pinouts-V0-3-pages-to-jpg-0154.jpg"
+    },
+    {
+        "name": "ARDUINO NANO",
+        "uid": 156,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A small and low-cost Arduino board based on the ATmega328 microcontroller.",
+        "price": "15.99",
+        "imageurl": "https://i.ibb.co/vxGgwP4/Pinouts-V0-3-pages-to-jpg-0156.jpg"
+    },
+    {
+        "name": "ARDUINO UNO REV 3",
+        "uid": 158,
+        "catagory": "BOARDS",
+        "subcata": "ARDUINO",
+        "description": "A classic and widely-used Arduino board based on the ATmega328 microcontroller, with 14 digital input/output pins and six analog inputs.",
+        "price": "22.99",
+        "imageurl": "https://i.ibb.co/7209Wbb/Pinouts-V0-3-pages-to-jpg-0158.jpg"
+    },
+    {
+        "name": "RASPBERRY PI 4 MODEL B",
+        "uid": 162,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "A powerful single-board computer with a 64-bit quad-core ARM Cortex-A72 CPU, up to 8GB of RAM, and support for dual displays and 4K resolution.",
+        "price": "49.99",
+        "imageurl": "https://i.ibb.co/gTND7cN/Pinouts-V0-3-pages-to-jpg-0162.jpg"
+    },
+    {
+        "name": "RASPBERRY PI 3 MODEL B+",
+        "uid": 164,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "A popular single-board computer with a 1.4GHz 64-bit quad-core ARM Cortex-A53 CPU, 1GB RAM, and Bluetooth and Wi-Fi connectivity.",
+        "price": "34.99",
+        "imageurl": "https://i.ibb.co/tZj59p9/Pinouts-V0-3-pages-to-jpg-0164.jpg"
+    },
+    {
+        "name": "RASPBERRY PI 3 MODEL A+",
+        "uid": 166,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "A smaller version of the Raspberry Pi 3 Model B+, with the same CPU and RAM but without Ethernet connectivity.",
+        "price": "29.99",
+        "imageurl": "https://i.ibb.co/nzMHsLp/Pinouts-V0-3-pages-to-jpg-0166.jpg"
+    },
+    {
+        "name": "RASPBERRY PI COMPUTE MODULE 3+",
+        "uid": 168,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "A Raspberry Pi in a smaller form factor, designed for industrial applications and with support for more advanced features such as multiple camera inputs.",
+        "price": "39.99",
+        "imageurl": "https://i.ibb.co/2S8g3YP/Pinouts-V0-3-pages-to-jpg-0168.jpg"
+    },
+    {
+        "name": "RASPBERRY PI COMPUTE MODULE 3+ LITE",
+        "uid": 172,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "A stripped-down version of the Raspberry Pi Compute Module 3+, without on-board eMMC flash storage.",
+        "price": "34.99",
+        "imageurl": "https://i.ibb.co/mtztzjv/Pinouts-V0-3-pages-to-jpg-0172.jpg"
+    },
+    {
+        "name": "RASPBERRY PI COMPUTE MODULE 4 (& LITE)",
+        "uid": 176,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "The latest version of the Raspberry Pi Compute Module, with a faster CPU, more RAM, and support for dual-display output.",
+        "price": "44.99",
+        "imageurl": "https://i.ibb.co/MgXW8NX/Pinouts-V0-3-pages-to-jpg-0176.jpg"
+    },
+    {
+        "name": "RASPBERRY PI PICO",
+        "uid": 180,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "A small and affordable microcontroller board, powered by the RP2040 chip, with flexible I/O pins and support for C/C++ and MicroPython programming.",
+        "price": "8.99",
+        "imageurl": "https://i.ibb.co/k43QhBt/Pinouts-V0-3-pages-to-jpg-0180.jpg"
+    },
+    {
+        "name": "RASPBERRY PI ZERO",
+        "uid": 182,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "A low-cost and compact version of the Raspberry Pi, with a single-core ARM11 CPU, 512MB of RAM, and a microSD card slot.",
+        "price": "9.99",
+        "imageurl": "https://i.ibb.co/PTTwq2v/Pinouts-V0-3-pages-to-jpg-0182.jpg"
+    },
+    {
+        "name": "RASPBERRY PI ZERO W",
+        "uid": 184,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "A version of the Raspberry Pi Zero with built-in Wi-Fi and Bluetooth connectivity.",
+        "price": "12.99",
+        "imageurl": "https://i.ibb.co/GtvH8KS/Pinouts-V0-3-pages-to-jpg-0184.jpg"
+    },
+    {
+        "name": "RASPBERRY PI ZERO 2 W",
+        "uid": 186,
+        "catagory": "BOARDS",
+        "subcata": "RASPBERRY PI",
+        "description": "A newer and more powerful version of the Raspberry Pi Zero, with a quad-core",
+        "price": "14.99",
+        "imageurl": "https://i.ibb.co/5hbnZCR/Pinouts-V0-3-pages-to-jpg-0186.jpg"
+    },
+    {
+        "name": "ESPRUINO PICO",
+        "uid": 188,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A small, low-power microcontroller board with an easy-to-use JavaScript interpreter, perfect for IoT projects and wearables.",
+        "price": "24.99",
+        "imageurl": "https://i.ibb.co/m8TFRGH/Pinouts-V0-3-pages-to-jpg-0188.jpg"
+    },
+    {
+        "name": "ESPRUINO WIFI",
+        "uid": 192,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A powerful microcontroller board with built-in Wi-Fi and an easy-to-use JavaScript interpreter, ideal for IoT applications and home automation projects.",
+        "price": "39.99",
+        "imageurl": "https://i.ibb.co/S66DsnD/Pinouts-V0-3-pages-to-jpg-0192.jpg"
+    },
+    {
+        "name": "IOIO-OTG V2.2",
+        "uid": 194,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A versatile open-source board that allows you to control a wide range of devices and sensors from your Android phone or tablet.",
+        "price": "19.99",
+        "imageurl": "https://i.ibb.co/hZMKcCT/Pinouts-V0-3-pages-to-jpg-0194.jpg"
+    },
+    {
+        "name": "MBED LPC1",
+        "uid": 196,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A low-cost development board based on the NXP LPC11U24 microcontroller, with support for the ARM mbed online development platform.",
+        "price": "29.99",
+        "imageurl": "https://i.ibb.co/qDfPHQh/Pinouts-V0-3-pages-to-jpg-0196.jpg"
+    },
+    {
+        "name": "NODEMCU",
+        "uid": 198,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "An open-source board that combines an ESP8266 Wi-Fi chip with a Lua interpreter, making it easy to build Wi-Fi-enabled devices.",
+        "price": "8.99",
+        "imageurl": "https://i.ibb.co/d7Dj1pM/Pinouts-V0-3-pages-to-jpg-0198.jpg"
+    },
+    {
+        "name": "OKDO E1",
+        "uid": 200,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A powerful microcontroller board based on the STM32F4 ARM Cortex-M4 chip, with lots of connectivity options and great processing power.",
+        "price": "39.99",
+        "imageurl": "https://i.ibb.co/02z6y9T/Pinouts-V0-3-pages-to-jpg-0200.jpg"
+    },
+    {
+        "name": "PARTICLE ARGON",
+        "uid": 202,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A powerful IoT development kit with built-in Wi-Fi and mesh networking capabilities, based on the Nordic nRF52840 chip.",
+        "price": "24.99",
+        "imageurl": "https://i.ibb.co/0cByxWh/Pinouts-V0-3-pages-to-jpg-0202.jpg"
+    },
+    {
+        "name": "PARTICLE BORON",
+        "uid": 204,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "An IoT development kit with built-in LTE Cat M1 connectivity, allowing for cellular connectivity in remote or mobile applications.",
+        "price": "29.99",
+        "imageurl": "https://i.ibb.co/8BGK09z/Pinouts-V0-3-pages-to-jpg-0204.jpg"
+    },
+    {
+        "name": "PARTICLE ELECTRON",
+        "uid": 206,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "An IoT development kit with 2G/3G cellular connectivity, allowing for remote communication in areas without Wi-Fi coverage.",
+        "price": "34.99",
+        "imageurl": "https://i.ibb.co/YhgFz3z/Pinouts-V0-3-pages-to-jpg-0206.jpg"
+    },
+    {
+        "name": "PARTICLE PHOTON",
+        "uid": 210,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A popular IoT development kit with built-in Wi-Fi, cloud connectivity, and a powerful ARM Cortex-M3 chip.",
+        "price": "19.99",
+        "imageurl": "https://i.ibb.co/vYc8KbY/Pinouts-V0-3-pages-to-jpg-0210.jpg"
+    },
+    {
+        "name": "SIFIVE HIFIVE1 REV B",
+        "uid": 212,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "An open-source microcontroller board based on the SiFive FE310-G002 RISC-V chip, with great processing power and flexibility.",
+        "price": "39.99",
+        "imageurl": "https://i.ibb.co/RNKTfnc/Pinouts-V0-3-pages-to-jpg-0212.jpg"
+    },
+    {
+        "name": "SPARKFUN PRO MICRO",
+        "uid": 214,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A compact, Arduino-compatible microcontroller board with built-in USB connectivity, great for small projects and wearables.",
+        "price": "19.99",
+        "imageurl": "https://i.ibb.co/Lk9GgPD/Pinouts-V0-3-pages-to-jpg-0214.jpg"
+    },
+    {
+        "name": "SPARKFUN REDBOARD",
+        "uid": 216,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A versatile microcontroller board with lots of connectivity options and Arduino compatibility, ideal for IoT projects and smart devices.",
+        "price": "24.99",
+        "imageurl": "https://i.ibb.co/FhcwFdK/Pinouts-V0-3-pages-to-jpg-0216.jpg"
+    },
+    {
+        "name": "SPARKFUN THING PLUS SAMD51",
+        "uid": 218,
+        "catagory": "BOARDS",
+        "subcata": "MISCELLANEOUS",
+        "description": "A powerful microcontroller board based on the ARM Cortex-M4 chip, with lots of connectivity options and great processing power.",
+        "price": "29.99",
+        "imageurl": "https://i.ibb.co/Vm0Pb3S/Pinouts-V0-3-pages-to-jpg-0218.jpg"
+    },
+    {
+        "name": "BC127 BLUETOOTH SMD MODULE",
+        "uid": 266,
+        "catagory": "COMMUNICATIONS MODULES",
+        "subcata": "COMMUNICATIONS MODULES",
+        "description": "A small, low-power Bluetooth module with great audio capabilities, ideal for wearables and audio projects.",
+        "price": "9.99",
+        "imageurl": "https://i.ibb.co/0jq93nT/Pinouts-V0-3-pages-to-jpg-0266.jpg"
+    },
+    {
+        "name": "ESP32 S2 WROVER MODULE WI-FI MODULE",
+        "uid": 268,
+        "catagory": "COMMUNICATIONS MODULES",
+        "subcata": "COMMUNICATIONS MODULES",
+        "description": "A powerful Wi-Fi module based on the ESP32 S2 chip, with lots of connectivity options and processing power.",
+        "price": "12.99",
+        "imageurl": "https://i.ibb.co/ssb6PyD/Pinouts-V0-3-pages-to-jpg-0268.jpg"
+    },
+    {
+        "name": "ESP32 WROOM 32D WI-FI+BT+BLE MODULE",
+        "uid": 270,
+        "catagory": "COMMUNICATIONS MODULES",
+        "subcata": "COMMUNICATIONS MODULES",
+        "description": "A compact, all-in-one Wi-Fi, Bluetooth, and BLE module, great for IoT projects and smart devices.",
+        "price": "15.99",
+        "imageurl": "https://i.ibb.co/MNLmK9h/Pinouts-V0-3-pages-to-jpg-0270.jpg"
+    },
+    {
+        "name": "ESP8266 SMT MODULE (ESP-12F)",
+        "uid": 272,
+        "catagory": "COMMUNICATIONS MODULES",
+        "subcata": "COMMUNICATIONS MODULES",
+        "description": "A low-cost Wi-Fi module with great processing power, perfect for IoT projects and home automation.",
+        "price": "4.99",
+        "imageurl": "https://i.ibb.co/vHZ8NPm/Pinouts-V0-3-pages-to-jpg-0272.jpg"
+    },
+    {
+        "name": "LS20031 5HZ (66 CHANNEL) GPS RECEIVER",
+        "uid": 274,
+        "catagory": "COMMUNICATIONS MODULES",
+        "subcata": "COMMUNICATIONS MODULES",
+        "description": "A high-precision GPS receiver with great sensitivity and accuracy, ideal for robotics and navigation projects.",
+        "price": "29.99",
+        "imageurl": "https://i.ibb.co/wW5gKvB/Pinouts-V0-3-pages-to-jpg-0274.jpg"
+    },
+    {
+        "name": "RAYTAC NRF51822 BLUETOOTH LE MODULE",
+        "uid": 276,
+        "catagory": "COMMUNICATIONS MODULES",
+        "subcata": "COMMUNICATIONS MODULES",
+        "description": "A compact, low-power Bluetooth module based on the Nordic NRF51822 chip, perfect for wearables and IoT projects.",
+        "price": "7.99",
+        "imageurl": "https://i.ibb.co/s3Wnqq5/Pinouts-V0-3-pages-to-jpg-0276.jpg"
+    },
+    {
+        "name": "RAYTAC NRF52832 BLUETOOTH LE MODULE",
+        "uid": 278,
+        "catagory": "COMMUNICATIONS MODULES",
+        "subcata": "COMMUNICATIONS MODULES",
+        "description": "A powerful Bluetooth module based on the Nordic NRF52832 chip, with great processing power and connectivity options.",
+        "price": "9.99",
+        "imageurl": "https://i.ibb.co/sVsZM3z/Pinouts-V0-3-pages-to-jpg-0278.jpg"
+    },
+    {
+        "name": "RN-42 (V6.15) BLUETOOTH SMD MODULE",
+        "uid": 280,
+        "catagory": "COMMUNICATIONS MODULES",
+        "subcata": "COMMUNICATIONS MODULES",
+        "description": "A small, low-power Bluetooth module with great audio capabilities and easy-to-use interface, perfect for wearables and audio projects.",
+        "price": "11.99",
+        "imageurl": "https://i.ibb.co/PcM7tPL/Pinouts-V0-3-pages-to-jpg-0280.jpg"
+    },
+    {
+        "name": "SPARKFUN COPERNICUS II DIP",
+        "uid": 282,
+        "catagory": "COMMUNICATIONS MODULES",
+        "subcata": "COMMUNICATIONS MODULES",
+        "description": "A GPS module that can receive signals from multiple satellite systems, including GPS, GLONASS, and QZSS. It has a built-in antenna and can provide accurate location information.",
+        "price": "39.99",
+        "imageurl": "https://i.ibb.co/1qjzVDq/Pinouts-V0-3-pages-to-jpg-0282.jpg"
+    },
+    {
+        "name": "ATMEGA2560-16AU (TQFP 100 PIN)",
+        "uid": 286,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A microcontroller chip based on the AVR architecture with 256KB of flash memory, 8KB of SRAM, and 4KB of EEPROM. It has 100 pins arranged in a quad flat package (QFP) and can be programmed using the Arduino IDE.",
+        "price": "7.99",
+        "imageurl": "https://i.ibb.co/GQ68GFV/Pinouts-V0-3-pages-to-jpg-0288.jpg"
+    },
+    {
+        "name": "ATMEGA32-16PU (PDIP 40 PIN)",
+        "uid": 290,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A microcontroller chip based on the AVR architecture with 32KB of flash memory, 2KB of SRAM, and 1KB of EEPROM. It has 40 pins arranged in a plastic dual inline package (PDIP) and can be programmed using the Arduino IDE.",
+        "price": "3.99",
+        "imageurl": "https://i.ibb.co/8sgDmfx/Pinouts-V0-3-pages-to-jpg-0290.jpg"
+    },
+    {
+        "name": "ATMEGA328-AU (TQFP 32 PIN)",
+        "uid": 292,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A microcontroller chip based on the AVR architecture with 32KB of flash memory, 2KB of SRAM, and 1KB of EEPROM. It has 32 pins arranged in a quad flat package (QFP) and can be programmed using the Arduino IDE.",
+        "price": "1.99",
+        "imageurl": "https://i.ibb.co/rvYVJGW/Pinouts-V0-3-pages-to-jpg-0292.jpg"
+    },
+    {
+        "name": "ATMEGA328-PU (SPDIP 28 PIN)",
+        "uid": 294,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A microcontroller with 32KB of flash memory and 2KB of SRAM, commonly used in Arduino boards and other DIY electronics projects.",
+        "price": "2.49",
+        "imageurl": "https://i.ibb.co/8dPz0MR/Pinouts-V0-3-pages-to-jpg-0294.jpg"
+    },
+    {
+        "name": "ATSAMD21G18A-AU (TQFP 48 PIN)",
+        "uid": 296,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A microcontroller chip based on the ARM Cortex-M0+ architecture with 256KB of flash memory, 32KB of SRAM, and 8KB of EEPROM. It has 48 pins arranged in a quad flat package (QFP) and can be programmed using the Arduino IDE.",
+        "price": "5.99",
+        "imageurl": "https://i.ibb.co/jzw83kn/Pinouts-V0-3-pages-to-jpg-0296.jpg"
+    },
+    {
+        "name": "ATTINY25-20SSU (SOIC 8 PIN)",
+        "uid": 298,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A low-power 8-bit microcontroller based on the AVR architecture with 2KB of flash memory, 128 bytes of SRAM, and 128 bytes of EEPROM. It has 8 pins arranged in a small outline integrated circuit (SOIC) and can be programmed using the Arduino IDE.",
+        "price": "0.99",
+        "imageurl": "https://i.ibb.co/V32jc5H/Pinouts-V0-3-pages-to-jpg-0298.jpg"
+    },
+    {
+        "name": "ATTINY25V-20PU (PDIP 8 PIN)",
+        "uid": 300,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A low-power 8-bit microcontroller based on the AVR architecture with 2KB of flash memory, 128 bytes of SRAM, and 128 bytes of EEPROM. It has 8 pins arranged in a plastic dual inline package (PDIP) and can be programmed using the Arduino IDE.",
+        "price": "1.49",
+        "imageurl": "https://i.ibb.co/pJC3nm8/Pinouts-V0-3-pages-to-jpg-0300.jpg"
+    },
+    {
+        "name": "ATTINY45-20PU (PDIP 8 PIN)",
+        "uid": 302,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A low-power 8-bit microcontroller based on the AVR architecture with 4KB of flash memory, 256 bytes of SRAM, and 256 bytes of EEPROM. It has 8 pins arranged in a plastic dual inline package (PDIP) and can be programmed using the Arduino IDE.",
+        "price": "0.50",
+        "imageurl": "https://i.ibb.co/vPFvDcQ/Pinouts-V0-3-pages-to-jpg-0302.jpg"
+    },
+    {
+        "name": "ATTINY45-20SU (SOIC 8 PIN)",
+        "uid": 304,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A low-power 8-bit AVR microcontroller with 4KB of flash memory and 256 bytes of SRAM, suitable for small embedded systems and low-power applications.",
+        "price": "0.60",
+        "imageurl": "https://i.ibb.co/VVRKVt0/Pinouts-V0-3-pages-to-jpg-0304.jpg"
+    },
+    {
+        "name": "ATTINY45-20XU (TSSOP 8 PIN)",
+        "uid": 306,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A variant of the ATTINY45 microcontroller in a surface-mount TSSOP package, with the same specifications and pinout as the SOIC version.",
+        "price": "0.70",
+        "imageurl": "https://i.ibb.co/JqdNXNq/Pinouts-V0-3-pages-to-jpg-0306.jpg"
+    },
+    {
+        "name": "ATTINY85-20PU (PDIP 8 PIN)",
+        "uid": 308,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "Another member of the AVR microcontroller family, with 8KB of flash memory and 512 bytes of SRAM, commonly used in small-scale embedded projects.",
+        "price": "0.80",
+        "imageurl": "https://i.ibb.co/fdRGJRQ/Pinouts-V0-3-pages-to-jpg-0308.jpg"
+    },
+    {
+        "name": "ATTINY85-20SU (SOIC 8 PIN)",
+        "uid": 310,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A surface-mount variant of the ATTINY85 microcontroller, with the same specifications and pinout as the PDIP version.",
+        "price": "0.90",
+        "imageurl": "https://i.ibb.co/nRR9ngV/Pinouts-V0-3-pages-to-jpg-0310.jpg"
+    },
+    {
+        "name": "PICAXE 08M2 (8 PIN)",
+        "uid": 312,
+        "catagory": "MICROCONTROLLER CHIPS",
+        "subcata": "MICROCONTROLLER CHIPS",
+        "description": "A small and inexpensive microcontroller with 2048 bytes of program memory and 80 bytes of RAM, commonly used in educational settings for teaching electronics and programming.",
+        "price": "1.00",
+        "imageurl": "https://i.ibb.co/Pz4JX1d/Pinouts-V0-3-pages-to-jpg-0312.jpg"
+    }
+]

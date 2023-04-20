@@ -451,3 +451,8 @@
 {
     font-size: larger;
 }
+.footer-main
+{
+    height: 100px;
+    background-color: black;
+}
