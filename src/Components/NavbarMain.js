@@ -1,6 +1,7 @@
 import React from 'react'
 import '../CSS/home.css'
 import logo from '../Images/home/chiplet_logo.png'
+import { Link } from 'react-router-dom'
 
 export default function navbarMain() {
 
@@ -10,7 +11,7 @@ export default function navbarMain() {
                 <div className="container-fluid nav-container">
                     <ul className='nav-links'>
                         <li className='nav-list-item'>Shop</li>
-                        <li className='nav-list-item'>Colection</li>
+                        <Link to='/collection' className='nav-list-item'>Colection</Link>
                         <li className='nav-list-item'>Premium</li>
                         <li className='nav-list-item'>About</li>
                     </ul>

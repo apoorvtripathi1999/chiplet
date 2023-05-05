@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'pixel';
+    src: url('../fonts/VT323-Regular.ttf') format('truetype');
+  }
+
+.collection-img
+{
+    width: 300px;
+}
+.collecction-element
+{
+    width: 320px;
+    background-color: silver;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-top: 50px;
+    transition: 1s ease;
+}
+.collecction-element:hover
+{
+   transform: translateY(-10px);
+   transition: 1s ease;
+}
+.collection-main
+{
+    background-color: grey;
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    justify-content:center;
+    padding-bottom: 200px;
+    font-family: "pixel", sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+}
