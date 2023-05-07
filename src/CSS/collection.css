@@ -35,3 +35,72 @@
     font-style: normal;
     font-weight: bolder;
 }
+.collection-card-img
+{
+    width: 250px;
+}
+.collection-card
+{
+    background-color: silver;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.prod-btn
+{
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    background-color: black;
+    color: silver;
+    font-family: "pixel", sans-serif;
+    font-style: normal;
+    transition: 1s ease;
+    border: solid black 1px;
+    border-radius: 10px;
+}
+.prod-btn:hover
+{
+    background-color: silver;
+    color: black;
+    border: solid black 1px;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+.prod-btn:active
+{
+    background-color: black;
+    color: silver;
+    transition: 0.2s ;
+}
+.price
+{
+    margin: 0px;
+}
+.collection-grid-container
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding-bottom: 100px;
+    margin: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.collection-heading
+{
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-top: 0px;
+    padding-top: 100px;
+}
+.collect
+{
+    background-color: grey;
+    font-family: "pixel", sans-serif;
+    font-style: normal;
+}
