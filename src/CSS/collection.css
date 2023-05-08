@@ -104,3 +104,105 @@
     font-family: "pixel", sans-serif;
     font-style: normal;
 }
+.product-upper
+{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 50px;
+    padding-right: 0px;
+    padding-top: 0px;
+}
+.product-upper-right
+{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.cost-div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+.product-upper-right-main
+{
+    margin: 50px;
+    width: 100%;
+}
+.quantity
+{
+    margin:50px;
+    margin-top: 0px;
+    background-color: silver;
+    padding-left: 50px;
+    padding-bottom: 25px;
+    max-width: 350px;
+    border-radius: 10px;
+}
+.prod-img
+{
+    width: 400px;
+}
+.product-image-main
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.product-main-container
+{
+    background-color: grey;
+}
+.image-container
+{
+    background-color: silver;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cost-button
+{
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+}
+.quant-input
+{
+    width: 50px;
+    height: 30px;
+    margin-left: 25px;
+    text-align: center;
+}
+.quant-form
+{
+    display: flex;
+    flex-direction: row;
+}
+.label-form
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.pricing
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+}
+.cost-btn-div
+{
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
