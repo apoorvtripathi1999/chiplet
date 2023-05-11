@@ -11,6 +11,13 @@ export default function Collection() {
     console.log(data)
    var navigate = useNavigate()
   return (
+
+     <div className='collection'>
+      <div className='collection-upper'>
+        <div className='collection-head'>
+        <h1 className='collect-heading'>Unleash Your Tech Imagination</h1>
+        </div>
+      </div>
     <div className='collection-main'>
      {
         data.map((e)=>{
@@ -25,6 +32,7 @@ export default function Collection() {
             )
         })
      }
+    </div>
     </div>
   )
 }

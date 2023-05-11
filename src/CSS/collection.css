@@ -156,6 +156,8 @@
 .product-main-container
 {
     background-color: grey;
+    font-family: "pixel", sans-serif;
+    font-style: normal;
 }
 .image-container
 {
@@ -178,6 +180,13 @@
     height: 30px;
     margin-left: 25px;
     text-align: center;
+}
+.quant-input:focus
+{
+    border: 2px solid black;
+    outline: none;
+    box-shadow: none;
+    transition: 1s ease;
 }
 .quant-form
 {
@@ -205,4 +214,108 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+}
+.cost-button
+{
+    background-color: black;
+    color: silver;
+    border-radius: 40%;
+    border: 1px solid white;
+    outline: 1px solid black;
+}
+.cost-button:hover
+{
+    background-color: grey;
+    color: black;
+    transition: 1s ease;
+}
+.cost-button.active
+{
+    background-color: silver;
+    border: 1px solid black;
+    border-radius: 50%;
+    transition: 1s ease;
+    color: black;
+}
+.price-heading
+{
+    width: 100px;
+}
+.discount-section
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.wholesale-div-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.wholesale-div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 25px;
+    width: 300px;
+    background-color: silver;
+    border-radius: 10px;
+}
+.collection
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+}
+.collection-upper
+{
+    background-image: url(../Images/home/collection-bgr.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position:center;
+    background-attachment: fixed;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: silver;
+    background-size: cover;
+    
+}
+.collect-heading
+{
+   
+    animation: blurOut ease 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    text-transform:uppercase;
+    font-size: xxx-large;
+    font-family: "pixel", sans-serif;
+    text-shadow: 1px 1px 2px silver, 0 0 1em black, 0 0 0.2em black;
+}
+@keyframes blurOut {
+    0% {
+        filter: blur(4px);
+    }
+    100% {
+        filter: blur(0px);
+     }
+}
+
+.collection-head
+{
+    backdrop-filter: blur(4px);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

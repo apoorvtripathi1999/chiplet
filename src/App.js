@@ -8,6 +8,7 @@ import NavbarMain from '../src/Components/NavbarMain'
 import Footer from '../src/Components/Footer'
 import CollectComp from './Components/CollectComp';
 import Productpage from './Components/Productpage';
+import Shop from './Components/Shop';
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
      <Route path='/collection' element = {<Collection/>}/>
      <Route path='/collection/:name' element = {<CollectComp/>}/>
      <Route path='/products/:uid' element = {<Productpage/>}/>
+     <Route path='/shop' element = {<Shop/>}/>
     </Routes>
     <Footer/>
     </>

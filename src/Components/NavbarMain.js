@@ -10,7 +10,7 @@ export default function navbarMain() {
             <nav className="navbar navbar-main bg-light">
                 <div className="container-fluid nav-container">
                     <ul className='nav-links'>
-                        <li className='nav-list-item'>Shop</li>
+                        <Link to='/shop' className='nav-list-item'>Shop</Link>
                         <Link to='/collection' className='nav-list-item'>Colection</Link>
                         <li className='nav-list-item'>Premium</li>
                         <li className='nav-list-item'>About</li>
