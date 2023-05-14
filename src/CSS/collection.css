@@ -319,3 +319,9 @@
     align-items: center;
     justify-content: center;
 }
+.product-name
+{
+    max-width: 20ch;
+    align-self: center;
+    height: 50px;
+}

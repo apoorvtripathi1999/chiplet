@@ -15,9 +15,9 @@ export default function navbarMain() {
                         <li className='nav-list-item'>Premium</li>
                         <li className='nav-list-item'>About</li>
                     </ul>
-                    <a className="navbar-brand">
+                    <Link to='/' className="navbar-brand">
                         <img src={logo} alt="Logo" width="30" height="24" className="d-inline-block align-text-top logo"/>
-                    </a>
+                    </Link>
                     <ul className='nav-links'>
                        <li className='nav-list-item'>Login</li>
                        <li className='nav-list-item'>Cart</li>

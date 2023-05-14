@@ -1,0 +1,27 @@
+.filter-container
+{
+    list-style: none;
+    padding: 0px;
+}
+.filter-container
+{
+    display:flex ;
+    flex-direction: column;
+}
+.shop-content
+{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    padding-left: 100px;
+}
+.shop-main
+{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+    background-color: grey;
+}
+.shop-filter
+{
+    width: 100%;
+}
