@@ -325,3 +325,21 @@
     align-self: center;
     height: 50px;
 }
+.login-main
+{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-inner
+{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-items: center;
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 15px;
+}

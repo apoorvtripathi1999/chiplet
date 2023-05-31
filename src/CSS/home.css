@@ -456,3 +456,23 @@
     height: 100px;
     background-color: black;
 }
+.user-list
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.user-list-item
+{
+    margin-right: 20px;
+}
+.user-image
+{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+.user-nav
+{
+    width: 20%;
+}
