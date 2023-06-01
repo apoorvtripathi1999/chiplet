@@ -1,0 +1,23 @@
+.user-main
+{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.user-img
+{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+}
+.user-divs
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

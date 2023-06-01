@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import '../CSS/collection.css'
 import { auth, googleAuth } from '../config/firebase'
-import { createUserWithEmailAndPassword, signOut, signInWithPopup } from 'firebase/auth'
+import { signInWithEmailAndPassword, signOut, signInWithPopup } from 'firebase/auth'
+import { Link } from 'react-router-dom'
 export default function Login() {
     var [email, getEmail] = useState("")
     var [password, getPassword] = useState("")
@@ -15,8 +16,10 @@ export default function Login() {
     }
     const handleClick = async () => {
         try {
-            await createUserWithEmailAndPassword(auth, email, password)
-            alert("Logged In user")
+            await signInWithEmailAndPassword(auth, email, password)
+            auth?.currentUser?.emailVerified? alert("Logged In user") :  
+                auth.signOut()
+                alert("Please verify your email to proceed")
         } catch (err) {
             console.error(err)
             setError(err)
@@ -48,11 +51,13 @@ export default function Login() {
                 </input>
                 <input placeholder='password' type='password' onChange={(e) => { handlePassword(e.target.value) }}>
                 </input>
+                <p>Forgot Password?</p>
                 <div>
                     <button onClick={handleClick}>Login</button>
                     <button onClick={handleOut}>Logout</button>
                 </div>
                 <button onClick={handleGoogle}>Sign In With Google</button>
+                <p>New to Chiplet? <Link to='/signup'>Sign Up</Link></p>
             </div>
         </div>
     )

@@ -5,11 +5,13 @@ import { Link } from 'react-router-dom'
 import { getAuth,onAuthStateChanged } from 'firebase/auth'
 
 
+
 export default function NavbarMain() {
     const auth = getAuth()
     const [login,getLogin] = useState(false)
     const userId = auth?.currentUser?.uid
     const userImg = auth?.currentUser?.photoURL
+
 
     onAuthStateChanged(auth,(user)=>{
       if(user){
@@ -36,17 +38,17 @@ export default function NavbarMain() {
                         <img src={logo} alt="Logo" width="30" height="24" className="d-inline-block align-text-top logo"/>
                     </Link>
                     <div className='user-nav'>
-                    <ul className='nav-links'>
                         {
-                         login? <div className='user'>
+                         login? 
+                         <div className='user'>
                          <ul className='user-list'>
                             <li className='user-list-item'><img className='user-image' src={userImg} alt='user'></img></li>
                             <li className='user-list-item'>Cart</li>
                             <Link to={`/user/${userId}`} className='user-list-item'>Profile</Link>
                          </ul>
-                         </div> : <Link to='/login' className='nav-list-item'>Login</Link>
+                         </div>             
+                         : <Link to='/login' className='nav-list-item'>Login</Link>
                         }
-                    </ul>
                     </div>
                 </div>
             </nav>
