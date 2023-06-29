@@ -1,7 +1,8 @@
-import { getAuth,onAuthStateChanged } from 'firebase/auth'
+import { getAuth,onAuthStateChanged, signOut } from 'firebase/auth'
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import '../CSS/user.css'
+
 
 export default function User() {
     var [name,setName] = useState("")
@@ -25,6 +26,8 @@ export default function User() {
             }
           })
     },[auth,navigate])
+
+    
 
   return (
     <div className='user-main'>

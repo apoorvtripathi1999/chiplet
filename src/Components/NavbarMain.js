@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import '../CSS/home.css'
 import logo from '../Images/home/chiplet_logo.png'
 import { Link } from 'react-router-dom'
-import { getAuth,onAuthStateChanged } from 'firebase/auth'
+import { getAuth,onAuthStateChanged, signOut } from 'firebase/auth'
 
 
 
@@ -22,6 +22,14 @@ export default function NavbarMain() {
         getLogin(false)
       }
     })
+    const handleOut = async () => {
+        try {
+            await signOut(auth)
+            alert("Logged Out")
+        } catch (err) {
+            console.error(err)
+        }
+    }
 
     return (
         <>
@@ -44,10 +52,11 @@ export default function NavbarMain() {
                          <ul className='user-list'>
                             <li className='user-list-item'><img className='user-image' src={userImg} alt='user'></img></li>
                             <li className='user-list-item'>Cart</li>
+                            <li className='user-list-item' onClick={handleOut}>Logout</li>
                             <Link to={`/user/${userId}`} className='user-list-item'>Profile</Link>
                          </ul>
                          </div>             
-                         : <Link to='/login' className='nav-list-item'>Login</Link>
+                         : <div className='login-link'><Link to='/login' className='nav-list-item'>Login</Link></div>
                         }
                     </div>
                 </div>

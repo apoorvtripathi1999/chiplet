@@ -1,12 +1,15 @@
 import React, { useState } from 'react'
 import '../CSS/collection.css'
 import { auth, googleAuth } from '../config/firebase'
-import { signInWithEmailAndPassword, signOut, signInWithPopup } from 'firebase/auth'
-import { Link } from 'react-router-dom'
+import { signInWithEmailAndPassword, signInWithPopup } from 'firebase/auth'
+import { Link, useNavigate } from 'react-router-dom'
+
+
 export default function Login() {
     var [email, getEmail] = useState("")
     var [password, getPassword] = useState("")
     var [error, setError] = useState("")
+    let navigate = useNavigate()
 
     const handleEmail = (email) => {
         getEmail(email)
@@ -17,27 +20,23 @@ export default function Login() {
     const handleClick = async () => {
         try {
             await signInWithEmailAndPassword(auth, email, password)
-            auth?.currentUser?.emailVerified? alert("Logged In user") :  
+            auth?.currentUser?.emailVerified? 
+            navigate('/user/:UID'):  
                 auth.signOut()
                 alert("Please verify your email to proceed")
+                navigate('/login')
         } catch (err) {
             console.error(err)
             setError(err)
             alert(error)
         }
     }
-    const handleOut = async () => {
-        try {
-            await signOut(auth)
-            alert("Logged Out")
-        } catch (err) {
-            console.error(err)
-        }
-    }
+
     const handleGoogle = async () => {
         try {
             await signInWithPopup(auth, googleAuth)
             alert("Logged In Using Google")
+            navigate('/user/:UID')
         } catch (err) {
             console.error(err)
             setError(err)
@@ -54,7 +53,6 @@ export default function Login() {
                 <p>Forgot Password?</p>
                 <div>
                     <button onClick={handleClick}>Login</button>
-                    <button onClick={handleOut}>Logout</button>
                 </div>
                 <button onClick={handleGoogle}>Sign In With Google</button>
                 <p>New to Chiplet? <Link to='/signup'>Sign Up</Link></p>

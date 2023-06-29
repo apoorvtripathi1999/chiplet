@@ -461,6 +461,8 @@
     list-style: none;
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
 }
 .user-list-item
 {
@@ -475,4 +477,13 @@
 .user-nav
 {
     width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-link
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
