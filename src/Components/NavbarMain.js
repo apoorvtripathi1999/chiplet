@@ -51,8 +51,8 @@ export default function NavbarMain() {
                          <div className='user'>
                          <ul className='user-list'>
                             <li className='user-list-item'><img className='user-image' src={userImg} alt='user'></img></li>
-                            <li className='user-list-item'>Cart</li>
-                            <li className='user-list-item' onClick={handleOut}>Logout</li>
+                            <Link to='/cart' className='user-list-item'>Cart</Link>
+                            <Link to="/" className='user-list-item' onClick={handleOut}>Logout</Link>
                             <Link to={`/user/${userId}`} className='user-list-item'>Profile</Link>
                          </ul>
                          </div>             

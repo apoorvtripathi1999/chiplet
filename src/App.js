@@ -11,6 +11,7 @@ import Shop from './Components/Shop';
 import Login from './Components/Login';
 import User from './Components/User';
 import Signup from './Components/Signup';
+import Kart from './Components/Kart';
 function App() {
   return (
     <>
@@ -24,6 +25,7 @@ function App() {
      <Route path='/login' element = {<Login/>}/>
      <Route path='/user/:UID' element = {<User/>}/>
      <Route path='/signup' element={<Signup/>}/>
+     <Route path='/cart' element={<Kart/>}/>
     </Routes>
     <Footer/>
     </>

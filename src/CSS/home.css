@@ -467,6 +467,18 @@
 .user-list-item
 {
     margin-right: 20px;
+    color: white;
+}
+.user-list-item:link
+{
+    color: white;
+    text-decoration: none;
+}
+.user-list-item:hover
+{
+    color: silver;
+    transition: 0.5s ease;
+    text-decoration: underline silver;
 }
 .user-image
 {
